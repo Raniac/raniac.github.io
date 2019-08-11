@@ -1,5 +1,8 @@
 <template>
   <div id="nav-area">
+    <div id="my-name">
+      <router-link to="/" class="nav-link">BENNY RAY</router-link>
+    </div>
     <el-menu
       id="nav-menu"
       :default-active="activeIndex2"
@@ -9,14 +12,14 @@
       text-color="#FFFFFF"
       active-text-color="#00CCFF"
       float="right">
-      <el-menu-item index="1">HOME</el-menu-item>
-      <el-menu-item index="2">PROJECTS</el-menu-item>
-      <el-menu-item index="3">BLOG</el-menu-item>
+      <el-menu-item index="1"><router-link to="/CV" class="nav-link">CV</router-link></el-menu-item>
+      <el-menu-item index="2"><router-link to="/Projects" class="nav-link">PROJECTS</router-link></el-menu-item>
+      <el-menu-item index="3"><router-link to="/" class="nav-link">BLOG</router-link></el-menu-item>
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
-        <el-menu-item index="4-1">选项1</el-menu-item>
-        <el-menu-item index="4-2">选项2</el-menu-item>
-        <el-menu-item index="4-3">选项3</el-menu-item>
+        <el-menu-item index="4-1">GITHUB</el-menu-item>
+        <el-menu-item index="4-2">E-MAIL</el-menu-item>
+        <el-menu-item index="4-3">WECHAT</el-menu-item>
         <el-submenu index="4-4">
           <template slot="title">选项4</template>
           <el-menu-item index="4-4-1">选项1</el-menu-item>
@@ -52,9 +55,29 @@ export default {
   background-color: #282828;
   box-shadow: 5px 0 20px #282828;
   z-index: 10;
+  text-align: left;
+  #my-name {
+    margin: 10px 40px;
+    float: left;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
   #nav-menu {
     border: none;
     float: right;
+  }
+  .nav-link {
+    text-decoration: none;
+    &:link {
+      color: #FFFFFF;
+    }
+    &:visited {
+      color: #FFFFFF;
+    }
+    &:hover {
+      color: #00CCFF;
+    }
   }
 }
 </style>

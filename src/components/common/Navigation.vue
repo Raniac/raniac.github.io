@@ -12,20 +12,14 @@
       text-color="#FFFFFF"
       active-text-color="#00CCFF"
       float="right">
-      <el-menu-item index="1"><router-link to="/CV" class="nav-link">CV</router-link></el-menu-item>
+      <el-menu-item index="1"><router-link to="/" class="nav-link">HOME</router-link></el-menu-item>
       <el-menu-item index="2"><router-link to="/Projects" class="nav-link">PROJECTS</router-link></el-menu-item>
       <el-menu-item index="3"><router-link to="/" class="nav-link">BLOG</router-link></el-menu-item>
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
-        <el-menu-item index="4-1">GITHUB</el-menu-item>
-        <el-menu-item index="4-2">E-MAIL</el-menu-item>
-        <el-menu-item index="4-3">WECHAT</el-menu-item>
-        <el-submenu index="4-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="4-4-1">选项1</el-menu-item>
-          <el-menu-item index="4-4-2">选项2</el-menu-item>
-          <el-menu-item index="4-4-3">选项3</el-menu-item>
-        </el-submenu>
+        <el-menu-item index="4-1"><i class="el-icon-user"></i>GITHUB</el-menu-item>
+        <el-menu-item index="4-2"><i class="el-icon-user"></i>E-MAIL</el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-user"></i>WECHAT</el-menu-item>
       </el-submenu>
     </el-menu>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="page-area">
-    <el-button>Button</el-button>
+    Here are my projects!
   </div>
 </template>
 

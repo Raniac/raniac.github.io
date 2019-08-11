@@ -27,6 +27,6 @@ body {
   font-family: 'Arial';
 }
 #app {
-  text-align: center;
+  min-width: 1200px;
 }
 </style>

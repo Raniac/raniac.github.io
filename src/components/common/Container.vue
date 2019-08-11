@@ -1,8 +1,20 @@
 <template>
   <div id="con-area">
-    <transition name="slide-fade">
-      <router-view/>
-    </transition>
+    <iframe
+      frameborder="no"
+      border="0"
+      marginwidth="0"
+      marginheight="0"
+      width=260
+      height=50
+      style="float: right"
+      src="//music.163.com/outchain/player?type=2&id=1610850&auto=1&height=32">
+    </iframe>
+    <div id="content">
+      <transition name="slide-fade">
+        <router-view/>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -12,11 +24,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #con-area {
   padding-top: 60px;
-  width: 1100px;
-  margin: 0 auto;
+  text-align: center;
+  #content {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: #000;
+  }
 }
 .slide-fade-enter-active {
   transition: all .4s ease;

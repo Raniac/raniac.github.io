@@ -1,12 +1,12 @@
 <template>
   <div class="page-area">
-    Here are my projects!
+    <div style="color: #fff; margin: auto; height: 1000px; width: auto"><h1>Projects will show here!</h1></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Projects'
+  name: 'Home'
   // data () {
   //   return {
   //     msg: 'Welcome to Your Vue.js App'
@@ -16,5 +16,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
 </style>

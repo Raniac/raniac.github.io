@@ -1,6 +1,6 @@
 <template>
-  <div class="home-area">
-    Home sweet home!
+  <div class="page-area">
+    <el-button>Button</el-button>
   </div>
 </template>
 

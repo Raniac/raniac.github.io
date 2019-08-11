@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div id="con-area">
+    alfad
     <transition>
       <router-view/>
     </transition>
@@ -13,4 +14,7 @@ export default {
 </script>
 
 <style>
+#con-area {
+  padding-top: 60px;
+}
 </style>

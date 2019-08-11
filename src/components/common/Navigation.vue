@@ -1,7 +1,7 @@
 <template>
   <div id="nav-area">
     <div id="my-name">
-      <router-link to="/" class="nav-link">BENNY RAY</router-link>
+      <router-link to="/" class="nav-link" style="color: #00CCFF">BENNY RAY</router-link>
     </div>
     <el-menu
       id="nav-menu"
@@ -10,7 +10,7 @@
       @select="handleSelect"
       background-color="#282828"
       text-color="#FFFFFF"
-      active-text-color="#00CCFF"
+      active-text-color="#FF3300"
       float="right">
       <el-menu-item index="1"><router-link to="/" class="nav-link">HOME</router-link></el-menu-item>
       <el-menu-item index="2"><router-link to="/Projects" class="nav-link">PROJECTS</router-link></el-menu-item>

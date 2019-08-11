@@ -30,7 +30,7 @@ export default {
   text-align: center;
   #content {
     width: 1000px;
-    margin: 10px auto;
+    margin: -10px auto;
     background-color: #000;
   }
 }

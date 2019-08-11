@@ -1,6 +1,6 @@
 <template>
   <div class="page-area">
-    Hi! I'm Benny!
+    <div style="color: #fff; margin: auto; height: 1000px; width: auto"><h1>Hi! I'm Benny!</h1></div>
   </div>
 </template>
 
@@ -16,5 +16,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+.page-area {
+  margin-top: 10px;
+}
 </style>

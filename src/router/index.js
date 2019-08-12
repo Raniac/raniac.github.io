@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/pages/Home'
-import Projects from '@/components/pages/Projects'
+import Portfolio from '@/components/pages/Portfolio'
 import Contact from '@/components/pages/Contact'
 
 Vue.use(Router)
@@ -15,9 +15,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/Projects',
-      name: 'Projects',
-      component: Projects
+      path: '/Portfolio',
+      name: 'Portfolio',
+      component: Portfolio
     },
     {
       path: '/Contact',

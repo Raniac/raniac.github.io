@@ -1,7 +1,8 @@
 <template>
   <div id="nav-area">
+    <span style="background-color: #00CCFF; width: 4px; height: 60px; float: left"></span>
     <div id="my-name">
-      <router-link to="/" class="nav-link" style="color: #00CCFF">BENNY RAY</router-link>
+      <router-link to="/" class="nav-link">BENNY RAY</router-link>
     </div>
     <el-menu
       id="nav-menu"
@@ -13,8 +14,8 @@
       active-text-color="#FF3300"
       float="right">
       <el-menu-item index="1"><router-link to="/" class="nav-link">HOME</router-link></el-menu-item>
-      <el-menu-item index="2"><router-link to="/Projects" class="nav-link">PROJECTS</router-link></el-menu-item>
-      <el-menu-item index="3"><router-link to="/" class="nav-link">BLOG</router-link></el-menu-item>
+      <el-menu-item index="2"><router-link to="/Portfolio" class="nav-link">PORTFOLIO</router-link></el-menu-item>
+      <el-menu-item index="3"><router-link to="/" class="nav-link">BLOGS</router-link></el-menu-item>
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
         <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB/Raniac</a></el-menu-item>

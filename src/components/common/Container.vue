@@ -29,8 +29,9 @@ export default {
   padding-top: 60px;
   text-align: center;
   #content {
-    width: 1000px;
+    // width: 1000px;
     margin: 0 auto;
+    text-align: center;
     // background-color: #505050;
   }
 }

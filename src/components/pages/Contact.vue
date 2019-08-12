@@ -1,5 +1,5 @@
 <template>
-  <div class="page-area">
+  <div class="page-area" id="contact-area">
     <div class="contact-card">
       <span style="background-color: #33CC00; width: 8px; height: 200px; float: left"></span>
       <img src="@/assets/img/Vegito.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
@@ -41,11 +41,15 @@ export default {
 </script>
 
 <style lang="scss">
-.contact-card {
-  margin-top: 40px;
+#contact-area {
+  margin: 0 auto;
   width: 1000px;
-  height: 200px;
-  text-align: left;
-  box-shadow: 1px 0 10px #E8E8E8;
+  .contact-card {
+    margin-top: 40px;
+    width: 1000px;
+    height: 200px;
+    text-align: left;
+    box-shadow: 1px 0 10px #E8E8E8;
+  }
 }
 </style>

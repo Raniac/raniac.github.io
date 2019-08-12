@@ -17,9 +17,9 @@
       <el-menu-item index="3"><router-link to="/" class="nav-link">BLOG</router-link></el-menu-item>
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
-        <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB</a></el-menu-item>
+        <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB/Raniac</a></el-menu-item>
         <el-menu-item index="4-2"><i class="el-icon-message"></i><a href="mailto:leibingye@outlook.com">E-MAIL</a></el-menu-item>
-        <el-menu-item index="4-3"><i class="el-icon-chat-dot-round"></i><a @click="handleWechat">WECHAT</a></el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-chat-dot-round"></i><router-link to="/Contact" class="nav-link">SOCIAL MEDIA</router-link></el-menu-item>
       </el-submenu>
     </el-menu>
   </div>
@@ -36,11 +36,6 @@ export default {
   methods: {
     handleSelect (key, keyPath) {
       console.log(key, keyPath)
-    },
-    handleWechat () {
-      this.$alert('Hi! My WeChat ID is LEIBINGYE!', {
-        confirmButtonText: 'Confirm'
-      })
     }
   }
 }

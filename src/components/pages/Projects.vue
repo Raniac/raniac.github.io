@@ -1,17 +1,16 @@
 <template>
   <div class="page-area">
-    <div style="color: #fff; margin: auto; height: 1000px; width: auto"><h1>Projects will show here!</h1></div>
+    <div style="background-color: #ff3300; color: #fff; margin: auto; height: 1000px; width: auto"><h1>Projects will show here!</h1></div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
-  // data () {
-  //   return {
-  //     msg: 'Welcome to Your Vue.js App'
-  //   }
-  // }
+  name: 'Projects',
+  data () {
+    return {
+    }
+  }
 }
 </script>
 

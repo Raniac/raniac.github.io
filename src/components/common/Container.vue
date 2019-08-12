@@ -31,7 +31,7 @@ export default {
   #content {
     width: 1000px;
     margin: -10px auto;
-    background-color: #505050;
+    // background-color: #505050;
   }
 }
 .slide-fade-enter-active {

@@ -15,7 +15,7 @@
       float="right">
       <el-menu-item index="1"><router-link to="/" class="nav-link">HOME</router-link></el-menu-item>
       <el-menu-item index="2"><router-link to="/Portfolio" class="nav-link">PORTFOLIO</router-link></el-menu-item>
-      <el-menu-item index="3"><router-link to="/" class="nav-link">BLOGS</router-link></el-menu-item>
+      <!-- <el-menu-item index="3"><router-link to="/" class="nav-link">BLOGS</router-link></el-menu-item> -->
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
         <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB/Raniac</a></el-menu-item>

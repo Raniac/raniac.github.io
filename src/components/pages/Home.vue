@@ -1,13 +1,10 @@
 <template>
   <div class="page-area">
-    <div style="margin: 10px auto; width: 1000px; height: 666px; box-shadow: 1px 0 10px #E8E8E8">
-      <img src="@/assets/img/Background.jpg" style="width: 100%; height: auto; margin: 0"/>
-    </div>
-    <div style="margin: 20px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
-      <img src="@/assets/img/Young.jpg" style="float: right; width: auto; height: 100%; margin: 0"/>
-    </div>
-    <div style="margin: 20px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
+    <div style="margin: 10px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
       <img src="@/assets/img/GrownUp.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
+      <div style="float: left; padding: 20px; font-size: 20px"><div>Hi! I'm Benny.</div></div>
+    </div>
+    <div style="margin: 20px auto; width: 1000px; height: 1000px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
     </div>
     <div style="width: 100%; height: 34px; background-color: #E8E8E8; text-align: left">
       <div style="width: auto; color: #282828; font-size: 14px; padding: 10px 20px">&copy; 2019 - 2020 Benny Ray / Made with Vue / Hosted on GitHub.io</div>

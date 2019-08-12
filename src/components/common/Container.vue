@@ -7,7 +7,7 @@
       marginheight="0"
       width=260
       height=50
-      style="float: right"
+      style="position: fixed; right: 0"
       src="//music.163.com/outchain/player?type=2&id=1610850&auto=1&height=32">
     </iframe>
     <div id="content">
@@ -30,7 +30,7 @@ export default {
   text-align: center;
   #content {
     width: 1000px;
-    margin: -10px auto;
+    margin: 0 auto;
     // background-color: #505050;
   }
 }

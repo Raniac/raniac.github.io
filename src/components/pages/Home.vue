@@ -1,6 +1,8 @@
 <template>
   <div class="page-area">
-    <div style="background-color: #505050; color: #fff; margin: auto; height: 1000px; width: auto"><h1>Hi! I'm Benny!</h1></div>
+    <div style="margin: 10px auto; width: 1000px; height: 1000px; box-shadow: 1px 0 10px #E8E8E8">
+      <img src="@/assets/img/Vegito.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
+    </div>
   </div>
 </template>
 

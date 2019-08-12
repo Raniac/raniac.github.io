@@ -46,7 +46,7 @@ export default {
 #nav-area {
   position: fixed;
   width: 100%;
-  min-width: 1200px;
+  min-width: 720px;
   height: 60px;
   background-color: #282828;
   box-shadow: 5px 0 20px #282828;

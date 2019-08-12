@@ -3,12 +3,12 @@
     <div style="margin: 10px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
       <img src="@/assets/img/GrownUp.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
       <div style="float: left; padding: 40px; width: 400px">
-        <img src="@/assets/img/Vegito.jpg" style="width: 140px; height: 140px; margin: 0; float: right"/>
+        <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
         <div style="font-size: 34px">Hi! I'm Benny.</div>
-        <div style="font-size: 34px">嗨！我是炳业。</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #282828">Guangdong, China</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #282828">Master of Science</div>
-        <div style="font-size: 20px; color: #282828">South China University of Technology</div>
+        <div style="font-size: 34px">嗨！我是炳業。</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Science</div>
+        <div style="font-size: 20px; color: #505050">South China University of Technology</div>
         <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Artificial Intelligence, Web Developing, Neuroimaging, Informatics, etc.</div>
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>

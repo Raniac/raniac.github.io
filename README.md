@@ -4,8 +4,6 @@
 
 [Benny Ray](https://raniac.github.io/)
 
-## Build Setup
-
 ``` bash
 # install dependencies
 npm install

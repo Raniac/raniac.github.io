@@ -1,7 +1,7 @@
 <template>
   <div class="page-area">
     <div style="margin: 10px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
-      <img src="@/assets/img/GrownUp.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
+      <img src="@/assets/img/Me.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
       <div style="float: left; padding: 40px; width: 400px">
         <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
         <div style="font-size: 34px">Hi! I'm Benny.</div>

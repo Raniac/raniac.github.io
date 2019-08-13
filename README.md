@@ -1,8 +1,6 @@
-# raniac.me
+# [Benny Ray](https://raniac.github.io/)
 
 > A Vue.js project
-
-[Benny Ray](https://raniac.github.io/)
 
 ## Build Setup
 

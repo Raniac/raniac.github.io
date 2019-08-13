@@ -48,7 +48,7 @@ export default {
   min-width: 720px;
   height: 60px;
   background-color: #282828;
-  box-shadow: 5px 0 20px #282828;
+  box-shadow: 0 0 20px #282828;
   z-index: 10;
   text-align: left;
   #my-name {

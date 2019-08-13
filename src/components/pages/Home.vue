@@ -1,6 +1,6 @@
 <template>
   <div class="page-area">
-    <div style="margin: 10px auto; width: 1000px; height: 340px; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
+    <div style="margin: 10px auto; width: 1000px; height: 340px; box-shadow: 0 0 10px #808080; text-align: left">
       <img src="@/assets/img/Me.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
       <div style="float: left; padding: 40px; width: 400px">
         <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
@@ -13,7 +13,9 @@
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
     </div>
-    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 1px 0 10px #E8E8E8; text-align: left">
+    <div style="margin: 20px auto; background-color: #282828; width: 1000px; height: 200px; box-shadow: 0 0 10px #808080; text-align: left">
+    </div>
+    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
       <div style="width: 100%; height: 340px">
         <span style="background-color: #FF3300; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 40px 40px 20px 40px">

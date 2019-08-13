@@ -49,7 +49,7 @@ export default {
     width: 1000px;
     height: 200px;
     text-align: left;
-    box-shadow: 1px 0 10px #E8E8E8;
+    box-shadow: 0 0 10px #808080;
   }
 }
 </style>

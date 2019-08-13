@@ -15,6 +15,12 @@
         <router-view/>
       </transition>
     </div>
+    <div style="width: 100%; height: 34px; background-color: #E8E8E8; text-align: left">
+      <div style="width: auto; color: #282828; font-size: 14px; padding: 10px 20px">&copy; 2019 - 2020 Benny Ray / Made with Vue / Hosted on GitHub.io</div>
+    </div>
+    <span style="background-color: #FF3300; width: 10%; height: 4px; float: left"></span>
+    <span style="background-color: #282828; width: 80%; height: 4px; float: left"></span>
+    <span style="background-color: #00CCFF; width: 10%; height: 4px; float: right"></span>
   </div>
 </template>
 

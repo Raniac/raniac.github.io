@@ -2,7 +2,7 @@
   <div id="nav-area">
     <span style="background-color: #00CCFF; width: 4px; height: 60px; float: left"></span>
     <div id="my-name">
-      <router-link to="/" class="nav-link">BENNY RAY</router-link>
+      <div class="nav-link">BENNY RAY</div>
     </div>
     <el-menu
       id="nav-menu"

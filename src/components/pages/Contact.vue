@@ -45,7 +45,7 @@ export default {
   margin: 0 auto;
   width: 1000px;
   .contact-card {
-    margin-top: 40px;
+    margin: 40px auto;
     width: 1000px;
     height: 200px;
     text-align: left;

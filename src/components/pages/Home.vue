@@ -13,7 +13,19 @@
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
     </div>
-    <div style="margin: 20px auto; background-color: #282828; width: 1000px; height: 200px; box-shadow: 0 0 10px #808080; text-align: left">
+    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
+      <div style="padding: 40px 40px 20px 40px">
+        <el-select v-model="language" size="mini" placeholder="Language" style="float: right; width: 120px">
+          <el-option label="English" value="English"></el-option>
+          <el-option label="中文" value="Chinese"></el-option>
+        </el-select>
+        <span style="background-color: #282828; width: 4px; height: 30px; float: left"></span>
+        <strong style="font-size: 24px; line-height: 125%">&ensp;ABOUT ME</strong>
+        <div style="font-size: 18px; line-height: 125%">
+          <p>{{ about_p_1 }}</p>
+          <p>{{ about_p_2 }}</p>
+        </div>
+      </div>
     </div>
     <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
       <div style="width: 100%; height: 340px">
@@ -65,6 +77,9 @@ export default {
   name: 'Home',
   data () {
     return {
+      language: 'English',
+      about_p_1: 'I am a second-year Ph.D. candidate in Department of Electrical and Computer Engineering at Carnegie Mellon University (CMU), advised by Prof. Rita Singh and Prof. Bhiksha Raj.',
+      about_p_2: 'Before coming to CMU, I was a visiting student in Multimedia Laboratory at Shenzhen Institute of Advanced Technology, advised by Zhifeng Li and Yu Qiao. I got my M.Eng degree from School of Electronic and Information Engineering, South China University of Technology in 2016, where I received the B.Eng degree in 2013. My advisor is Prof. Yuli Fu.'
     }
   }
 }

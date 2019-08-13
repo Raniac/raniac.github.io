@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+[Benny Ray](https://raniac.github.io/)
+
 ## Build Setup
 
 ``` bash

@@ -6,7 +6,7 @@
     </div>
     <el-menu
       id="nav-menu"
-      :default-active="activeIndex2"
+      :default-active="activeIndex"
       mode="horizontal"
       @select="handleSelect"
       background-color="#282828"
@@ -30,8 +30,7 @@
 export default {
   data () {
     return {
-      activeIndex: '1',
-      activeIndex2: '1'
+      activeIndex: '1'
     }
   },
   methods: {

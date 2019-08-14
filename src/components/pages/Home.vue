@@ -87,7 +87,7 @@ export default {
       if (this.language === 'English') {
         this.about_p_1 = 'I am currently a second-year graduate student in Department of Biomedical Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.'
         this.about_p_2 = 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE", namely breadth and depth.'
-      } else {
+      } else if (this.language === 'Chinese') {
         this.about_p_1 = '我目前是一名華南理工大學生物醫學工程專業的碩士二年級研究生。來到華工前，我二零一八年在北京理工大學信息與電子學院取得學士學位。'
         this.about_p_2 = '我的研究興趣主要集中於機器學習及其在神經信息學領域中的應用。我也是網絡開發與設計的愛好者。我認爲一個成功人士最重要的特質包括前瞻性和責任心。我的座右銘是“BE MORE”，也即廣度與深度。'
       }

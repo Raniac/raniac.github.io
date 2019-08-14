@@ -63,7 +63,7 @@
         <div style="padding: 20px 40px 40px 40px">
           <strong style="font-size: 24px">PROJECTS</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
-            <li>Raniac/NEURO-LEARN</li>
+            <li><a style="text-decoration: none; color: #000000" href="https://github.com/Raniac/NEURO-LEARN" target='_blank'>Raniac/NEURO-LEARN</a></li>
             <div style="color: #808080">A Decentralized Solution for Pattern Analysis of Neuroimaging Data</div>
           </div>
         </div>

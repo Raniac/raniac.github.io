@@ -6,10 +6,10 @@
         <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
         <div style="font-size: 34px">Hi! I'm Benny.</div>
         <div style="font-size: 34px">嗨！我是炳業。</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China 中國廣東</div>
         <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Engineering</div>
         <div style="font-size: 20px; color: #505050">South China University of Technology</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Artificial Intelligence, Web Developing, Neuroinformatics, etc.</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Artificial Intelligence, Web Development, Neuroinformatics, etc.</div>
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
     </div>
@@ -17,7 +17,7 @@
       <div style="padding: 40px 40px 20px 40px">
         <el-select v-model="language" size="mini" placeholder="Language" style="float: right; width: 120px">
           <el-option label="English" value="English"></el-option>
-          <el-option label="中文" value="Chinese"></el-option>
+          <!-- <el-option label="中文" value="Chinese"></el-option> -->
         </el-select>
         <span style="background-color: #282828; width: 4px; height: 30px; float: left"></span>
         <strong style="font-size: 24px; line-height: 125%">&ensp;ABOUT ME</strong>
@@ -39,7 +39,7 @@
             <div style="color: #808080">Bachelor / Electronic Engineering / Sep. 2014 - July 2018</div>
           </div>
           <br/>
-          <strong style="font-size: 24px">EXPERIENCE</strong>
+          <strong style="font-size: 24px">EXPERIENCES</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
             <li>Guangzhou ImageDT Technology Co., Ltd.</li>
             <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
@@ -78,8 +78,8 @@ export default {
   data () {
     return {
       language: 'English',
-      about_p_1: 'I am a second-year Ph.D. candidate in Department of Electrical and Computer Engineering at Carnegie Mellon University (CMU), advised by Prof. Rita Singh and Prof. Bhiksha Raj.',
-      about_p_2: 'Before coming to CMU, I was a visiting student in Multimedia Laboratory at Shenzhen Institute of Advanced Technology, advised by Zhifeng Li and Yu Qiao. I got my M.Eng degree from School of Electronic and Information Engineering, South China University of Technology in 2016, where I received the B.Eng degree in 2013. My advisor is Prof. Yuli Fu.'
+      about_p_1: 'I am currently a second-year graduate student in Department of Biomedical Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.',
+      about_p_2: 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE", namely breadth and depth.'
     }
   }
 }

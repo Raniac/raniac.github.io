@@ -1,4 +1,4 @@
-# raniac.me
+# raniac.github.io
 
 > A Vue.js project
 

@@ -18,9 +18,10 @@
       <!-- <el-menu-item index="3"><router-link to="/" class="nav-link">BLOGS</router-link></el-menu-item> -->
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
-        <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB/Raniac</a></el-menu-item>
-        <el-menu-item index="4-2"><i class="el-icon-message"></i><a href="mailto:leibingye@outlook.com">E-MAIL</a></el-menu-item>
-        <el-menu-item index="4-3"><i class="el-icon-chat-dot-round"></i><router-link to="/Contact" class="nav-link">SOCIAL MEDIA</router-link></el-menu-item>
+        <el-menu-item index="4-1"><i class="el-icon-user"></i><a href="https://github.com/Raniac" target="_blank" style="text-decoration: none">GITHUB - Raniac</a></el-menu-item>
+        <el-menu-item index="4-2"><i class="el-icon-user"></i><a href="https://www.jianshu.com/u/99cc5e74dd78" target="_blank" style="text-decoration: none">BLOGS - Raniac</a></el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-message"></i><a href="mailto:leibingye@outlook.com">E-MAIL</a></el-menu-item>
+        <el-menu-item index="4-4"><i class="el-icon-chat-dot-round"></i><router-link to="/Contact" class="nav-link">SOCIAL MEDIA</router-link></el-menu-item>
       </el-submenu>
     </el-menu>
   </div>

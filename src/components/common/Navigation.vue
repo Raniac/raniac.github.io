@@ -46,7 +46,7 @@ export default {
         })
       } else if (key === '3') {
         this.$router.replace({
-          path: '/'
+          path: '/Blogs'
         })
       } else if (key === '4-1') {
         window.open('https://github.com/Raniac', '_blank')

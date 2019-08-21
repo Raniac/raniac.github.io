@@ -2,7 +2,7 @@
   <div class="blog-overview">
     <div class="blog-item" @click="handleViewDetail('test')">
       <img src="@/assets/img/Vegito.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
-      <div>null</div>
+      <div>This is an article.</div>
     </div>
   </div>
 </template>

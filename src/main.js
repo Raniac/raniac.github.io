@@ -10,6 +10,15 @@ import '../theme/index.css'
 
 import showdown from 'showdown'
 
+import hljs from 'highlight.js'
+import 'highlight.js/styles/github.css'
+Vue.directive('highlight', function (el) {
+  let blocks = el.querySelectorAll('pre code')
+  blocks.forEach((block) => {
+    hljs.highlightBlock(block)
+  })
+})
+
 Vue.prototype.md2html = (md) => {
   let converter = new showdown.Converter()
   let text = md.toString()

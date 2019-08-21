@@ -6,7 +6,7 @@
     </div>
   </div>
   <div class="blog-detail" v-else-if="show_detail == 1">
-    <div v-html="blogDetail"></div>
+    <div v-html="blogDetail" v-highlight></div>
   </div>
 </template>
 

@@ -15,11 +15,11 @@
       float="right">
       <el-menu-item index="1">HOME</el-menu-item>
       <el-menu-item index="2">PORTFOLIO</el-menu-item>
-      <el-menu-item index="3">BLOGS</el-menu-item>
+      <el-menu-item index="3">BLOG</el-menu-item>
       <el-submenu index="4">
         <template slot="title">CONTACT</template>
         <el-menu-item index="4-1"><i class="el-icon-user"></i>GITHUB - Raniac</el-menu-item>
-        <el-menu-item index="4-2"><i class="el-icon-user"></i>BLOGS - Raniac</el-menu-item>
+        <el-menu-item index="4-2"><i class="el-icon-user"></i>JIANSHU - Raniac</el-menu-item>
         <el-menu-item index="4-3"><i class="el-icon-message"></i>E-MAIL</el-menu-item>
         <el-menu-item index="4-4"><i class="el-icon-chat-dot-round"></i>SOCIAL MEDIA</el-menu-item>
       </el-submenu>
@@ -99,7 +99,7 @@ export default {
     }
   }
 }
-a {
+.a {
   text-decoration: none;
   &:link {
     color: #FFFFFF;

@@ -40,10 +40,10 @@
           </div>
           <br/>
           <strong style="font-size: 24px">EXPERIENCES</strong>
-          <div style="font-size: 18px; padding: 10px; line-height: 150%">
+          <!-- <div style="font-size: 18px; padding: 10px; line-height: 150%">
             <li>Guangzhou ImageDT Technology Co., Ltd. 廣州圖匠數據科技有限公司</li>
             <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div style="width: 100%; height: 340px">

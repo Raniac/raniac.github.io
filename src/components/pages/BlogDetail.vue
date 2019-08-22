@@ -1,5 +1,22 @@
 <template>
   <div class="blog-detail">
+    <div class="user-avatar" @click="handleRedirect">
+      <span style="background-color: #282828; width: 4px; height: 60px; float: left"></span>
+      <span class="avatar-img" :style="{ backgroundImage: 'url(https://avatars2.githubusercontent.com/u/17725948?s=460&v=4)' }"></span>
+      <div class="avatar-info">2019.08.20</div>
+      <div style="float: left; font-size: 20px; line-height: 40px; margin: 10px 10px; color: #505050">
+        <el-tooltip content="Click to check out the original article at JIANSHU" placement="bottom">
+          <i class="el-icon-connection"></i>
+        </el-tooltip>
+      </div>
+    </div>
+    <div class="back-to-former">
+      <div style="font-size: 40px; margin: 10px 20px; color: #505050" @click="handleBackToFormer">
+        <el-tooltip content="Click to close this article" placement="left">
+          <i class="el-icon-close"></i>
+        </el-tooltip>
+      </div>
+    </div>
     <div v-html="blogDetail" v-highlight style="width: 100%; padding: 40px 40px; max-width: 920px"></div>
   </div>
 </template>
@@ -20,11 +37,44 @@ export default {
     }
   },
   methods: {
+    handleBackToFormer () {
+      this.$router.replace({
+        path: '/Blog'
+      })
+    },
+    handleRedirect () {
+      window.open('https://www.jianshu.com/p/0a75d9083247', '_blank')
+    }
   }
 }
 </script>
 
 <style lang="scss">
+.user-avatar {
+  float: left;
+  width: auto;
+  height: 60px;
+  .avatar-img {
+    float: left;
+    margin: 10px 20px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: center no-repeat;
+    background-size: cover;
+    background-color: #282828;
+  }
+  .avatar-info {
+    float: left;
+    margin: 10px 0;
+    line-height: 40px;
+    color: #505050;
+  }
+}
+.back-to-former {
+  float: right;
+}
 .blog-detail {
   margin: 20px auto;
   width: 1000px;

@@ -5,14 +5,14 @@
       <span class="avatar-img" :style="{ backgroundImage: 'url(https://avatars2.githubusercontent.com/u/17725948?s=460&v=4)' }"></span>
       <div class="avatar-info">2019.08.20</div>
       <div style="float: left; font-size: 20px; line-height: 40px; margin: 10px 10px; color: #505050">
-        <el-tooltip content="Click to check out the original article at JIANSHU" placement="bottom">
+        <el-tooltip content="Check out the original article at JIANSHU" placement="right">
           <i class="el-icon-connection"></i>
         </el-tooltip>
       </div>
     </div>
     <div class="back-to-former">
       <div style="font-size: 40px; margin: 10px 20px; color: #505050" @click="handleBackToFormer">
-        <el-tooltip content="Click to close this article" placement="left">
+        <el-tooltip content="Close this article" placement="left">
           <i class="el-icon-close"></i>
         </el-tooltip>
       </div>
@@ -27,13 +27,15 @@ export default {
   name: 'BlogDetail',
   data () {
     return {
-      blogDetail: ''
+      blogDetail: '',
+      articleID: ''
     }
   },
   mounted () {
     let blogName = this.$route.query.name
     if (blogName === 'test') {
       this.blogDetail = this.md2html(a01)
+      this.articleID = '0a75d9083247'
     }
   },
   methods: {
@@ -43,7 +45,7 @@ export default {
       })
     },
     handleRedirect () {
-      window.open('https://www.jianshu.com/p/0a75d9083247', '_blank')
+      window.open('https://www.jianshu.com/p/' + this.articleID, '_blank')
     }
   }
 }

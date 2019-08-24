@@ -3,7 +3,7 @@
     <div class="user-avatar" @click="handleRedirect">
       <span style="background-color: #282828; width: 4px; height: 60px; float: left"></span>
       <span class="avatar-img" :style="{ backgroundImage: 'url(https://avatars2.githubusercontent.com/u/17725948?s=460&v=4)' }"></span>
-      <div class="avatar-info">2019.08.20</div>
+      <div class="avatar-info">{{ date }}</div>
       <div style="float: left; font-size: 20px; line-height: 40px; margin: 10px 10px; color: #505050">
         <el-tooltip content="Check out the original article at JIANSHU" placement="right">
           <i class="el-icon-connection"></i>
@@ -22,20 +22,27 @@
 </template>
 
 <script>
-import a01 from '@/assets/A01.md'
+import A01 from '@/assets/doc/A01.md'
+import A02 from '@/assets/doc/A02.md'
 export default {
   name: 'BlogDetail',
   data () {
     return {
       blogDetail: '',
-      articleID: ''
+      articleID: '',
+      date: ''
     }
   },
   mounted () {
     let blogName = this.$route.query.name
-    if (blogName === 'test') {
-      this.blogDetail = this.md2html(a01)
+    if (blogName === 'A01') {
+      this.blogDetail = this.md2html(A01)
       this.articleID = '0a75d9083247'
+      this.date = '2019-08-20'
+    } else if (blogName === 'A02') {
+      this.blogDetail = this.md2html(A02)
+      this.articleID = 'a4f9ef4371cf'
+      this.date = '2019-08-24'
     }
   },
   methods: {

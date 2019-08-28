@@ -24,6 +24,7 @@
 <script>
 import A01 from '@/assets/doc/A01.md'
 import A02 from '@/assets/doc/A02.md'
+import A03 from '@/assets/doc/A03.md'
 export default {
   name: 'BlogDetail',
   data () {
@@ -43,6 +44,10 @@ export default {
       this.blogDetail = this.md2html(A02)
       this.articleID = 'a4f9ef4371cf'
       this.date = '2019-08-24'
+    } else if (blogName === 'A03') {
+      this.blogDetail = this.md2html(A03)
+      this.articleID = 'e76cf8057ccf'
+      this.date = '2019-08-28'
     }
   },
   methods: {

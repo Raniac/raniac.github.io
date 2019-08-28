@@ -1,5 +1,12 @@
 <template>
   <div class="blog-overview">
+    <div class="blog-item" @click="handleViewDetail('A03')">
+      <span style="background-color: #282828; width: 4px; height: 180px; float: left"></span>
+      <div style="float: left">
+        <div class="blog-title"><i class="el-icon-document"></i> Ubuntu Tips and Tricks</div>
+        <div style="margin: 10px 0; line-height: 40px; color: #505050; text-align: left; margin: 0 40px; font-size: 28px">2019-08-28</div>
+      </div>
+    </div>
     <div class="blog-item" @click="handleViewDetail('A02')">
       <span style="background-color: #282828; width: 4px; height: 180px; float: left"></span>
       <div style="float: left">

@@ -21,12 +21,14 @@ export default {
 </script>
 
 <style>
-body {
+html, body {
   margin: 0;
   padding: 0;
   font-family: 'Arial';
+  height: 100%;
 }
 #app {
   min-width: 1200px;
+  height: 100%;
 }
 </style>

@@ -50,6 +50,9 @@ export default {
     height: 200px;
     text-align: left;
     box-shadow: 0 0 10px #808080;
+    &:first-child {
+      margin-top: 20px;
+    }
   }
 }
 </style>

@@ -45,14 +45,11 @@ export default {
   margin: 0 auto;
   width: 1000px;
   .contact-card {
-    margin: 40px auto;
+    margin: 20px auto;
     width: 1000px;
     height: 200px;
     text-align: left;
     box-shadow: 0 0 10px #808080;
-    &:first-child {
-      margin-top: 20px;
-    }
   }
 }
 </style>

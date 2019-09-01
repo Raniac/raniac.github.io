@@ -1,7 +1,7 @@
 <template>
   <div class="page-area">
     <div class="project-card">
-      <span style="background-color: #282828; width: 4px; height: 120px; float: right"></span>
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
       <img src="@/assets/img/UI.png" style="height: 200px; width: 300px; float: left"/>
       <el-tooltip content="Check out the repository at GITHUB" placement="bottom" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
         <i class="el-icon-connection" @click="handleRedirect('nlw-git')"></i>
@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="project-card">
-      <span style="background-color: #282828; width: 4px; height: 120px; float: right"></span>
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
       <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
         <i class="el-icon-connection" @click="handleRedirect('np-git')"></i>
       </el-tooltip>

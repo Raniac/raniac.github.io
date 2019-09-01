@@ -28,7 +28,7 @@
       </div>
     </div>
     <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
-      <div style="width: 100%; height: 340px">
+      <div style="width: 100%; height: 200px">
         <span style="background-color: #FF3300; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 40px 40px 20px 40px">
           <strong style="font-size: 24px">EDUCATION</strong>
@@ -38,33 +38,29 @@
             <li>Beijing Institute of Technology 北京理工大學</li>
             <div style="color: #808080">Bachelor / Electronic Engineering / Sep. 2014 - July 2018</div>
           </div>
-          <br/>
-          <strong style="font-size: 24px">EXPERIENCES</strong>
-          <!-- <div style="font-size: 18px; padding: 10px; line-height: 150%">
-            <li>Guangzhou ImageDT Technology Co., Ltd. 廣州圖匠數據科技有限公司</li>
-            <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
-          </div> -->
         </div>
       </div>
-      <div style="width: 100%; height: 340px">
+      <div style="width: 100%; height: 130px">
         <span style="background-color: #282828; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 20px 40px">
+          <strong style="font-size: 24px">EXPERIENCES</strong>
+          <div style="font-size: 18px; padding: 10px; line-height: 150%">
+            <li>Guangzhou ImageDT Technology Co., Ltd. 廣州圖匠數據科技有限公司</li>
+            <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
+          </div>
+        </div>
+      </div>
+      <div style="width: 100%; height: 260px">
+        <span style="background-color: #00CCFF; width: 4px; height: 100%; float: left"></span>
+        <div style="padding: 20px 40px 40px 40px">
           <strong style="font-size: 24px">TECH STACK</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
             <li>Web Development</li>
             <div style="color: #808080; font-family: Courier">Vue.js Django MySQL Celery Git</div>
             <li>Data Science</li>
-            <div style="color: #808080; font-family: Courier">Scikit-Learn Numpy Pandas Keras Docker Linux</div>
-          </div>
-        </div>
-      </div>
-      <div style="width: 100%; height: 340px">
-        <span style="background-color: #00CCFF; width: 4px; height: 100%; float: left"></span>
-        <div style="padding: 20px 40px 40px 40px">
-          <strong style="font-size: 24px">PROJECTS</strong>
-          <div style="font-size: 18px; padding: 10px; line-height: 150%">
-            <li><a style="text-decoration: none; color: #000000" href="https://github.com/Raniac/NEURO-LEARN" target='_blank'>Raniac/NEURO-LEARN</a></li>
-            <div style="color: #808080">A Decentralized Solution for Pattern Analysis of Neuroimaging Data</div>
+            <div style="color: #808080; font-family: Courier">Scikit-Learn Numpy Pandas Keras Pytorch MXNet</div>
+            <li>Computer Science</li>
+            <div style="color: #808080; font-family: Courier">Docker Linux</div>
           </div>
         </div>
       </div>

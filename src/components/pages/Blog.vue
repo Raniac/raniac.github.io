@@ -1,5 +1,10 @@
 <template>
   <div class="blog-overview">
+    <div class="page-info">
+      <span style="background-color: #282828; margin-top: 15px; width: 8px; height: 44px; float: left"></span>
+      <div style="font-size: 50px; color: #282828; line-height: 150%">&ensp;BLOG</div>
+      <div style="font-size: 24px; color: #505050; line-height: 150%; font-family: Georgia, Palatino, serif">&ensp;The palest ink is better than the best memory.</div>
+    </div>
     <div class="blog-item" @click="handleViewDetail('A04')">
       <span style="background-color: #282828; width: 4px; height: 180px; float: left"></span>
       <div style="float: left">

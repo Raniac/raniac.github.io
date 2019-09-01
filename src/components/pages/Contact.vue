@@ -1,5 +1,10 @@
 <template>
   <div class="page-area" id="contact-area">
+    <div class="page-info">
+      <span style="background-color: #282828; margin-top: 15px; width: 8px; height: 44px; float: left"></span>
+      <div style="font-size: 50px; color: #282828; line-height: 150%">&ensp;CONTACT</div>
+      <div style="font-size: 24px; color: #505050; line-height: 150%; font-family: Georgia, Palatino, serif">&ensp;Two heads are always better than one.</div>
+    </div>
     <div class="contact-card">
       <span style="background-color: #33CC00; width: 8px; height: 200px; float: left"></span>
       <img src="@/assets/img/Vegito.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>

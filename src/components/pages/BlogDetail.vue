@@ -56,15 +56,15 @@ export default {
       this.blogDetail = this.md2html(A04)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-08-30'
-    } else if (blogName === 'A04') {
+    } else if (blogName === 'A05') {
       this.blogDetail = this.md2html(A05)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-09-04'
-    } else if (blogName === 'A04') {
+    } else if (blogName === 'A06') {
       this.blogDetail = this.md2html(A06)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-09-06'
-    } else if (blogName === 'A04') {
+    } else if (blogName === 'A07') {
       this.blogDetail = this.md2html(A07)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-09-08'

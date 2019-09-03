@@ -26,6 +26,9 @@ import A01 from '@/assets/doc/A01.md'
 import A02 from '@/assets/doc/A02.md'
 import A03 from '@/assets/doc/A03.md'
 import A04 from '@/assets/doc/A04.md'
+import A05 from '@/assets/doc/A05.md'
+import A06 from '@/assets/doc/A06.md'
+import A07 from '@/assets/doc/A07.md'
 export default {
   name: 'BlogDetail',
   data () {
@@ -53,6 +56,18 @@ export default {
       this.blogDetail = this.md2html(A04)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-08-30'
+    } else if (blogName === 'A04') {
+      this.blogDetail = this.md2html(A05)
+      this.articleID = 'e76cf8057ccf'
+      this.date = '2019-09-04'
+    } else if (blogName === 'A04') {
+      this.blogDetail = this.md2html(A06)
+      this.articleID = 'e76cf8057ccf'
+      this.date = '2019-09-06'
+    } else if (blogName === 'A04') {
+      this.blogDetail = this.md2html(A07)
+      this.articleID = 'e76cf8057ccf'
+      this.date = '2019-09-08'
     }
   },
   methods: {

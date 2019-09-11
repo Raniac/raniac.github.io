@@ -21,7 +21,7 @@
         </el-select>
         <span style="background-color: #282828; width: 4px; height: 30px; float: left"></span>
         <strong style="font-size: 24px; line-height: 125%">&ensp;ABOUT ME</strong>
-        <div style="font-size: 18px; line-height: 150%">
+        <div style="font-size: 18px; line-height: 150%; font-family: Georgia, Palatino, serif">
           <p>{{ about_p_1 }}</p>
           <p>{{ about_p_2 }}</p>
         </div>

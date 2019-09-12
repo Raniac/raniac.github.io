@@ -17,7 +17,9 @@
     </div>
     <div>
       <div style="width: 100%; height: 36px; background-color: #E8E8E8; text-align: left">
-        <div style="width: auto; color: #282828; font-size: 16px; padding: 10px 20px">&copy; 2019 - 2020 Benny Ray / Made with Vue / Hosted on GitHub.io</div>
+        <div style="width: auto; color: #282828; font-size: 16px; padding: 10px 20px">
+          &copy; 2019 - 2020 Benny Ray / Made with <a href="https://cn.vuejs.org/" target="_" style="color: #00CC99">Vue</a> / Hosted on <a href="https://pages.github.com/" target="_" style="color: #000033">GitHub.io</a>
+        </div>
       </div>
       <span style="background-color: #FF3300; width: 10%; height: 4px; float: left"></span>
       <span style="background-color: #282828; width: 80%; height: 4px; float: left"></span>

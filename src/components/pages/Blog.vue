@@ -8,6 +8,7 @@
     <div v-for="(value, index) in articles" :key="index">
       <div class="blog-item" @click="handleViewDetail(value.label)">
         <span style="background-color: #282828; width: 4px; height: 180px; float: left"></span>
+        <img :src="value.thumbnail" style="height: 140px; width: 280px; float: right; margin: 20px 40px"/>
         <div style="float: left">
           <div class="blog-title"><i class="el-icon-document"></i> {{ value.title }}</div>
           <div style="margin: 10px 0; line-height: 40px; color: #505050; text-align: left; margin: 0 40px; font-size: 28px">{{ value.date }}</div>
@@ -23,13 +24,13 @@ export default {
   data () {
     return {
       articles: [
-        {label: 'A07', title: 'Docker Tips and Tricks', date: '2019-09-08'},
-        {label: 'A06', title: 'MySQL Tips and Tricks', date: '2019-09-06'},
-        {label: 'A05', title: 'Git Tips and Tricks', date: '2019-09-04'},
-        {label: 'A04', title: 'Literature Reading | 19-08-30', date: '2019-08-30'},
-        {label: 'A03', title: 'Ubuntu Tips and Tricks', date: '2019-08-28'},
-        {label: 'A02', title: 'GNN——图网络相关知识整理', date: '2019-08-24'},
-        {label: 'A01', title: 'Django+Vue前后端分离开发', date: '2019-08-20'}
+        {label: 'A07', title: 'Docker Tips and Tricks', date: '2019-09-08', thumbnail: require('@/assets/img/A07.png')},
+        {label: 'A06', title: 'MySQL Tips and Tricks', date: '2019-09-06', thumbnail: require('@/assets/img/A06.png')},
+        {label: 'A05', title: 'Git Tips and Tricks', date: '2019-09-04', thumbnail: require('@/assets/img/A05.png')},
+        {label: 'A04', title: 'Literature Reading | 19-08-30', date: '2019-08-30', thumbnail: require('@/assets/img/A04.png')},
+        {label: 'A03', title: 'Ubuntu Tips and Tricks', date: '2019-08-28', thumbnail: require('@/assets/img/A03.png')},
+        {label: 'A02', title: 'GNN——图网络相关知识整理', date: '2019-08-24', thumbnail: require('@/assets/img/A02.png')},
+        {label: 'A01', title: 'Django+Vue前后端分离开发', date: '2019-08-20', thumbnail: require('@/assets/img/A01.png')}
       ]
     }
   },

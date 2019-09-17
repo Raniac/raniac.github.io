@@ -24,6 +24,7 @@ export default {
   data () {
     return {
       articles: [
+        {label: 'A08', title: 'Literature Reading | 19-09-17', date: '2019-09-17', thumbnail: require('@/assets/img/A04.png')},
         {label: 'A07', title: 'Docker Tips and Tricks', date: '2019-09-08', thumbnail: require('@/assets/img/A07.png')},
         {label: 'A06', title: 'MySQL Tips and Tricks', date: '2019-09-06', thumbnail: require('@/assets/img/A06.png')},
         {label: 'A05', title: 'Git Tips and Tricks', date: '2019-09-04', thumbnail: require('@/assets/img/A05.png')},

@@ -29,6 +29,7 @@ import A04 from '@/assets/doc/A04.md'
 import A05 from '@/assets/doc/A05.md'
 import A06 from '@/assets/doc/A06.md'
 import A07 from '@/assets/doc/A07.md'
+import A08 from '@/assets/doc/A08.md'
 export default {
   name: 'BlogDetail',
   data () {
@@ -68,6 +69,10 @@ export default {
       this.blogDetail = this.md2html(A07)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-09-08'
+    } else if (blogName === 'A08') {
+      this.blogDetail = this.md2html(A08)
+      this.articleID = 'e76cf8057ccf'
+      this.date = '2019-09-17'
     }
   },
   methods: {
@@ -116,7 +121,7 @@ export default {
   text-align: left;
   box-shadow: 0 0 10px #808080;
   img {
-    max-width: 900px;
+    max-width: 800px;
   }
   h1, h2, h3, h4 {
     color: #111111;

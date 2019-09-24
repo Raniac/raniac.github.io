@@ -7,6 +7,16 @@
     </div>
     <div class="project-card">
       <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
+      <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
+        <i class="el-icon-connection" @click="handleRedirect('nld-git')"></i>
+      </el-tooltip>
+      <div style="float: left; width: 80%">
+        <div class="project-title"><i class="el-icon-folder-opened"></i> NEURO-LEARN-DOCKER</div>
+        <div class="project-intro">Fast deployment of NEURO-LEARN using docker.</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
       <img src="@/assets/img/UI.png" style="height: 200px; width: 300px; float: left"/>
       <el-tooltip content="Check out the repository at GITHUB" placement="bottom" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
         <i class="el-icon-connection" @click="handleRedirect('nlw-git')"></i>
@@ -47,6 +57,8 @@ export default {
         window.open('https://raniac.github.io/neurolearn_demo/')
       } else if (loc === 'np-git') {
         window.open('https://github.com/Raniac/neuroimaging_with_python')
+      } else if (loc === 'nld-git') {
+        window.open('https://github.com/Raniac/NEURO-LEARN-DOCKER')
       }
     }
   }

@@ -8,6 +8,16 @@
     <div class="project-card">
       <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
       <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
+        <i class="el-icon-connection" @click="handleRedirect('sgn-git')"></i>
+      </el-tooltip>
+      <div style="float: left; width: 80%">
+        <div class="project-title"><i class="el-icon-folder-opened"></i> Schizo_Graph_Net</div>
+        <div class="project-intro">Discriminative Analysis of Schizophrenia Using Graph Neural Network.</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
+      <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
         <i class="el-icon-connection" @click="handleRedirect('nld-git')"></i>
       </el-tooltip>
       <div style="float: left; width: 80%">
@@ -59,6 +69,8 @@ export default {
         window.open('https://github.com/Raniac/neuroimaging_with_python')
       } else if (loc === 'nld-git') {
         window.open('https://github.com/Raniac/NEURO-LEARN-DOCKER')
+      } else if (loc === 'sgn-git') {
+        window.open('https://github.com/Raniac/Schizo_Graph_Net')
       }
     }
   }

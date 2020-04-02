@@ -56,11 +56,11 @@
           <strong style="font-size: 24px">TECH STACK</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
             <li>Web Development</li>
-            <div style="color: #808080; font-family: Courier">Vue.js Django MySQL Celery Git JQuery Gunicorn</div>
+            <div style="color: #808080; font-family: Courier">Django Flask Vue.js MySQL Celery Git JQuery Gunicorn</div>
             <li>Data Science</li>
-            <div style="color: #808080; font-family: Courier">Scikit-Learn Numpy Pandas Keras Pytorch Faiss MXNet</div>
-            <li>Computer Science</li>
-            <div style="color: #808080; font-family: Courier">Docker Linux</div>
+            <div style="color: #808080; font-family: Courier">Scikit-Learn Numpy Pandas Pytorch MXNet Faiss</div>
+            <li>Cloud Computing</li>
+            <div style="color: #808080; font-family: Courier">Docker Linux Kubernetes</div>
           </div>
         </div>
       </div>

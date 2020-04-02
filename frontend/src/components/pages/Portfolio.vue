@@ -7,6 +7,30 @@
     </div>
     <div class="project-card">
       <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
+      <img src="@/assets/img/UI.png" style="height: 200px; width: 300px; float: left"/>
+      <el-tooltip content="Check out the repository at GITHUB" placement="bottom" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
+        <i class="el-icon-connection" @click="handleRedirect('nlw-git')"></i>
+      </el-tooltip>
+      <el-tooltip content="Check out the demo page" placement="left" style="float: right; margin: 40px 20px 0 0; font-size: 40px; color: #505050">
+        <i class="el-icon-s-promotion" @click="handleRedirect('nlw-home')"></i>
+      </el-tooltip>
+      <div style="float: left; width: 50%">
+        <div class="project-title"><i class="el-icon-folder-opened"></i> NEURO-LEARN</div>
+        <div class="project-intro">A decentralized solution for pattern analysis of neuroimaging data.</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
+      <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
+        <i class="el-icon-connection" @click="handleRedirect('dlho-git')"></i>
+      </el-tooltip>
+      <div style="float: left; width: 80%">
+        <div class="project-title"><i class="el-icon-folder-opened"></i> DLHandsOn</div>
+        <div class="project-intro">Deep Learning Hands-On.</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
       <el-tooltip content="Check out the repository at GITHUB" placement="left" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
         <i class="el-icon-connection" @click="handleRedirect('sgn-git')"></i>
       </el-tooltip>
@@ -23,20 +47,6 @@
       <div style="float: left; width: 80%">
         <div class="project-title"><i class="el-icon-folder-opened"></i> NEURO-LEARN-DOCKER</div>
         <div class="project-intro">Fast deployment of NEURO-LEARN using docker.</div>
-      </div>
-    </div>
-    <div class="project-card">
-      <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
-      <img src="@/assets/img/UI.png" style="height: 200px; width: 300px; float: left"/>
-      <el-tooltip content="Check out the repository at GITHUB" placement="bottom" style="float: right; margin: 40px 40px 0 0; font-size: 40px; color: #505050">
-        <i class="el-icon-connection" @click="handleRedirect('nlw-git')"></i>
-      </el-tooltip>
-      <el-tooltip content="Check out the demo page" placement="left" style="float: right; margin: 40px 20px 0 0; font-size: 40px; color: #505050">
-        <i class="el-icon-s-promotion" @click="handleRedirect('nlw-home')"></i>
-      </el-tooltip>
-      <div style="float: left; width: 50%">
-        <div class="project-title"><i class="el-icon-folder-opened"></i> NEURO-LEARN</div>
-        <div class="project-intro">A decentralized solution for pattern analysis of neuroimaging data.</div>
       </div>
     </div>
     <div class="project-card">
@@ -71,6 +81,8 @@ export default {
         window.open('https://github.com/Raniac/NEURO-LEARN-DOCKER')
       } else if (loc === 'sgn-git') {
         window.open('https://github.com/Raniac/Schizo_Graph_Net')
+      } else if (loc === 'dlho-git') {
+        window.open('https://github.com/Raniac/DLHandsOn')
       }
     }
   }

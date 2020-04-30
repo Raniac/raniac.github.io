@@ -30,6 +30,7 @@ import A05 from '@/assets/doc/A05.md'
 import A06 from '@/assets/doc/A06.md'
 import A07 from '@/assets/doc/A07.md'
 import A08 from '@/assets/doc/A08.md'
+import A09 from '@/assets/doc/A09.md'
 export default {
   name: 'BlogDetail',
   data () {
@@ -73,6 +74,10 @@ export default {
       this.blogDetail = this.md2html(A08)
       this.articleID = 'e76cf8057ccf'
       this.date = '2019-09-17'
+    } else if (blogName === 'A09') {
+      this.blogDetail = this.md2html(A09)
+      this.articleID = 'b6552da29050'
+      this.date = '2020-04-23'
     }
   },
   methods: {

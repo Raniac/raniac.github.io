@@ -24,14 +24,15 @@ export default {
   data () {
     return {
       articles: [
+        {label: 'A09', title: 'NEURO-LEARN', date: '2020-04-23', thumbnail: require('@/assets/img/A01.png')},
+        {label: 'A01', title: 'Django+Vue前后端分离开发', date: '2019-08-20', thumbnail: require('@/assets/img/UI.png')},
+        {label: 'A02', title: 'GNN——图网络相关知识整理', date: '2019-08-24', thumbnail: require('@/assets/img/A02.png')},
         // {label: 'A08', title: 'Literature Reading | 19-09-17', date: '2019-09-17', thumbnail: require('@/assets/img/A04.png')},
         {label: 'A07', title: 'Docker Tips and Tricks', date: '2019-09-08', thumbnail: require('@/assets/img/A07.png')},
         {label: 'A06', title: 'MySQL Tips and Tricks', date: '2019-09-06', thumbnail: require('@/assets/img/A06.png')},
         {label: 'A05', title: 'Git Tips and Tricks', date: '2019-09-04', thumbnail: require('@/assets/img/A05.png')},
         // {label: 'A04', title: 'Literature Reading | 19-08-30', date: '2019-08-30', thumbnail: require('@/assets/img/A04.png')},
-        {label: 'A03', title: 'Ubuntu Tips and Tricks', date: '2019-08-28', thumbnail: require('@/assets/img/A03.png')},
-        {label: 'A02', title: 'GNN——图网络相关知识整理', date: '2019-08-24', thumbnail: require('@/assets/img/A02.png')},
-        {label: 'A01', title: 'Django+Vue前后端分离开发', date: '2019-08-20', thumbnail: require('@/assets/img/A01.png')}
+        {label: 'A03', title: 'Ubuntu Tips and Tricks', date: '2019-08-28', thumbnail: require('@/assets/img/A03.png')}
       ]
     }
   },

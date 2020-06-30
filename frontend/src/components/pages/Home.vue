@@ -5,11 +5,11 @@
       <div style="float: left; padding: 40px; width: 400px">
         <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
         <div style="font-size: 34px">Hi! I'm Benny.</div>
-        <div style="font-size: 34px">嗨！我是炳業。</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China 中國廣東</div>
+        <div style="font-size: 34px">嗨！我是炳业。</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China 中国广东</div>
         <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Engineering</div>
         <div style="font-size: 20px; color: #505050">South China University of Technology</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Artificial Intelligence, Web Development, Neuroinformatics, etc.</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Web Development, Artificial Intelligence, Big Data & Cloud Computing.</div>
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
     </div>
@@ -31,22 +31,24 @@
       <div style="width: 100%; height: 200px">
         <span style="background-color: #FF3300; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 40px 40px 20px 40px">
-          <strong style="font-size: 24px">EDUCATION</strong>
+          <strong style="font-size: 24px">EXPERIENCES</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
-            <li>South China University of Technology 華南理工大學</li>
-            <div style="color: #808080">Master / Biomedical Engineering / Sep. 2018 - Present</div>
-            <li>Beijing Institute of Technology 北京理工大學</li>
-            <div style="color: #808080">Bachelor / Electronic Engineering / Sep. 2014 - July 2018</div>
+            <li>HUAWEI TECHNOLOGIES CO., LTD. 华为技术有限公司</li>
+            <div style="color: #808080">Software Engineer Intern / June 2020 - Aug. 2020</div>
+            <li>Guangzhou ImageDT Technology Co., Ltd. 广州图匠数据科技有限公司</li>
+            <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
           </div>
         </div>
       </div>
-      <div style="width: 100%; height: 130px">
+      <div style="width: 100%; height: 180px">
         <span style="background-color: #282828; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 20px 40px">
-          <strong style="font-size: 24px">EXPERIENCES</strong>
+          <strong style="font-size: 24px">EDUCATION</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
-            <li>Guangzhou ImageDT Technology Co., Ltd. 廣州圖匠數據科技有限公司</li>
-            <div style="color: #808080">Algorithm Engineer Intern / July 2019 - Oct. 2019</div>
+            <li>South China University of Technology 华南理工大学</li>
+            <div style="color: #808080">Master / Medical Information Engineering / Sep. 2018 - Present</div>
+            <li>Beijing Institute of Technology 北京理工大学</li>
+            <div style="color: #808080">Bachelor / Electronic Engineering / Sep. 2014 - July 2018</div>
           </div>
         </div>
       </div>
@@ -56,11 +58,11 @@
           <strong style="font-size: 24px">TECH STACK</strong>
           <div style="font-size: 18px; padding: 10px; line-height: 150%">
             <li>Web Development</li>
-            <div style="color: #808080; font-family: Courier">Django Flask Vue.js MySQL Celery Git JQuery Gunicorn</div>
-            <li>Data Science</li>
-            <div style="color: #808080; font-family: Courier">Scikit-Learn Numpy Pandas Pytorch MXNet Faiss</div>
-            <li>Cloud Computing</li>
-            <div style="color: #808080; font-family: Courier">Docker Linux Kubernetes</div>
+            <div style="color: #808080; font-family: Courier">Django/Flask/Tornado; Spring; Vue.js; MySQL/Redis</div>
+            <li>Artificial Intelligence</li>
+            <div style="color: #808080; font-family: Courier">Machine Learning; Deep Learning; Graph Neural Network</div>
+            <li>Big Data & Cloud Computing</li>
+            <div style="color: #808080; font-family: Courier">Docker/Kubernetes; Hadoop Ecosystem; Spark</div>
           </div>
         </div>
       </div>
@@ -74,18 +76,18 @@ export default {
   data () {
     return {
       language: 'English',
-      about_p_1: 'I am currently a second-year graduate student in Department of Biomedical Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.',
-      about_p_2: 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE", namely breadth and depth.'
+      about_p_1: 'I am currently a second-year graduate student majoring in Medical Information Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.',
+      about_p_2: 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE".'
     }
   },
   methods: {
     handleLangChange () {
       if (this.language === 'English') {
-        this.about_p_1 = 'I am currently a second-year graduate student in Department of Biomedical Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.'
-        this.about_p_2 = 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE", namely breadth and depth.'
+        this.about_p_1 = 'I am currently a second-year graduate student majoring in Medical Information Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.'
+        this.about_p_2 = 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE".'
       } else if (this.language === 'Chinese') {
-        this.about_p_1 = '我目前是一名華南理工大學生物醫學工程專業的碩士二年級研究生。來到華工前，我二零一八年在北京理工大學信息與電子學院取得學士學位。'
-        this.about_p_2 = '我的研究興趣主要集中於機器學習及其在神經信息學領域中的應用。我也是網絡開發與設計的愛好者。我認爲一個成功人士最重要的特質包括前瞻性和責任心。我的座右銘是“BE MORE”，也即廣度與深度。'
+        this.about_p_1 = '我目前是一名华南理工大学医学信息工程专业的硕士二年级研究生。来到华工前，我二零一八年在北京理工大学信息与电子学院取得学士学位。'
+        this.about_p_2 = '我的研究兴趣主要集中于机器学习及其在神经信息学领域中的应用。我也是Web开发与设计的爱好者。我认为一个成功人士最重要的特质包括前瞻性和责任心。我的座右铭是“BE MORE”。'
       }
     }
   }

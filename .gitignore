@@ -5,6 +5,7 @@ frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/test/unit/coverage/
+frontend/package-lock.json
 
 # Editor directories and files
 .idea

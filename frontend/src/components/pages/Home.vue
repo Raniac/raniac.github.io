@@ -7,8 +7,8 @@
         <div style="font-size: 34px">Hi! I'm Benny.</div>
         <div style="font-size: 34px">嗨！我是炳业。</div>
         <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China 中国广东</div>
-        <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Engineering</div>
-        <div style="font-size: 20px; color: #505050">South China University of Technology</div>
+        <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Engineering, SCUT</div>
+        <div style="font-size: 20px; color: #505050">Author of <a href="https://rdcu.be/b4NCq">NEURO-</a><a href="https://github.com/Raniac/NEURO-LEARN-DOCKER/" target="_blank">LEARN</a></div>
         <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Web Development, Artificial Intelligence, Big Data & Cloud Computing.</div>
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
@@ -77,17 +77,17 @@ export default {
     return {
       language: 'English',
       about_p_1: 'I am currently a second-year graduate student majoring in Medical Information Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.',
-      about_p_2: 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE".'
+      about_p_2: 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing.'
     }
   },
   methods: {
     handleLangChange () {
       if (this.language === 'English') {
         this.about_p_1 = 'I am currently a second-year graduate student majoring in Medical Information Engineering at South China University of Technology (SCUT). Before coming to SCUT, I got my B.Eng degree from School of Information and Electronic, Beijing Institute of Technology (BIT) in 2018.'
-        this.about_p_2 = 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing. I believe that the most import traits of an achiever are foresightedness and conscientiousness. My motto is "BE MORE".'
+        this.about_p_2 = 'My research interests mainly focus on machine learning and its applications in neuroinformatics. I am also a big fan of web development and designing.'
       } else if (this.language === 'Chinese') {
         this.about_p_1 = '我目前是一名华南理工大学医学信息工程专业的硕士二年级研究生。来到华工前，我二零一八年在北京理工大学信息与电子学院取得学士学位。'
-        this.about_p_2 = '我的研究兴趣主要集中于机器学习及其在神经信息学领域中的应用。我也是Web开发与设计的爱好者。我认为一个成功人士最重要的特质包括前瞻性和责任心。我的座右铭是“BE MORE”。'
+        this.about_p_2 = '我的研究兴趣主要集中于机器学习及其在神经信息学领域中的应用。我也是Web开发与设计的爱好者。'
       }
     }
   }
@@ -95,4 +95,9 @@ export default {
 </script>
 
 <style lang="scss">
+a {
+  text-decoration: none;
+  color: #282828;
+  font-weight: bold;
+}
 </style>

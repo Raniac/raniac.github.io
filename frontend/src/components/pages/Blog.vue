@@ -24,6 +24,7 @@ export default {
   data () {
     return {
       articles: [
+        {label: 'A04', title: 'NEURO-LEARN-DOCKER', date: '2020-07-24', thumbnail: require('@/assets/img/A01.png')},
         {label: 'A09', title: 'NEURO-LEARN', date: '2020-04-23', thumbnail: require('@/assets/img/A01.png')},
         {label: 'A01', title: 'Django+Vue前后端分离开发', date: '2019-08-20', thumbnail: require('@/assets/img/UI.png')},
         {label: 'A02', title: 'GNN——图网络相关知识整理', date: '2019-08-24', thumbnail: require('@/assets/img/A02.png')},

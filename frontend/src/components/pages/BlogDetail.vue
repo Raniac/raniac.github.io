@@ -2,7 +2,7 @@
   <div class="blog-detail">
     <div class="user-avatar" @click="handleRedirect">
       <span style="background-color: #282828; width: 4px; height: 60px; float: left"></span>
-      <span class="avatar-img" :style="{ backgroundImage: 'url(https://avatars2.githubusercontent.com/u/17725948?s=460&v=4)' }"></span>
+      <span class="avatar-img" :style="{ backgroundImage: 'url(https://raniac.github.io/static/img/avatar.b785c82.jpg)' }"></span>
       <div class="avatar-info">{{ date }}</div>
       <div style="float: left; font-size: 20px; line-height: 40px; margin: 10px 10px; color: #505050">
         <el-tooltip content="Check out the original article at JIANSHU" placement="right">
@@ -56,8 +56,8 @@ export default {
       this.date = '2019-08-28'
     } else if (blogName === 'A04') {
       this.blogDetail = this.md2html(A04)
-      this.articleID = 'e76cf8057ccf'
-      this.date = '2019-08-30'
+      this.articleID = '06f0451463fe'
+      this.date = '2020-07-24'
     } else if (blogName === 'A05') {
       this.blogDetail = this.md2html(A05)
       this.articleID = 'e76cf8057ccf'

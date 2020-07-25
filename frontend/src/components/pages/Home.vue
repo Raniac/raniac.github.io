@@ -8,7 +8,7 @@
         <div style="font-size: 34px">嗨！我是炳业。</div>
         <div style="margin-top: 20px; font-size: 20px; color: #505050">Guangdong, China 中国广东</div>
         <div style="margin-top: 20px; font-size: 20px; color: #505050">Master of Engineering, SCUT</div>
-        <div style="font-size: 20px; color: #505050">Author of <a href="https://rdcu.be/b4NCq">NEURO-</a><a href="https://github.com/Raniac/NEURO-LEARN-DOCKER/" target="_blank">LEARN</a></div>
+        <div style="font-size: 20px; color: #505050">Author of <a href="https://rdcu.be/b4NCq" target="_blank">NEURO-</a><a href="https://github.com/Raniac/NEURO-LEARN-DOCKER/" target="_blank">LEARN</a></div>
         <div style="margin-top: 20px; font-size: 20px; color: #282828"><strong>INTERESTS:</strong> Web Development, Artificial Intelligence, Big Data & Cloud Computing.</div>
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>

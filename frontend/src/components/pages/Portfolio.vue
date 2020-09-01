@@ -64,7 +64,7 @@ export default {
       if (loc === 'nlw-git') {
         window.open('https://github.com/Raniac/NEURO-LEARN')
       } else if (loc === 'nlw-home') {
-        window.open('https://raniac.github.io/neurolearn_demo/')
+        window.open('https://raniac.github.io/neuro-learn-website/')
       } else if (loc === 'np-git') {
         window.open('https://github.com/Raniac/neuroimaging_with_python')
       } else if (loc === 'nld-git') {

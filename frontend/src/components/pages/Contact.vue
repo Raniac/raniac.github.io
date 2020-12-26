@@ -10,7 +10,7 @@
       <img src="@/assets/img/avatar.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
       <div style="float: left; margin: 20px 10px; color: #000000">
         <h1>WeChat</h1>
-        <h2>Benny_Ray</h2>
+        <h2>LEIBINGYE</h2>
       </div>
       <img src="@/assets/img/WeChat_QR.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: right"/>
     </div>
@@ -19,7 +19,7 @@
       <img src="@/assets/img/avatar.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
       <div style="float: left; margin: 20px 10px; color: #000000">
         <h1>Weibo</h1>
-        <h2>RaniacSimpson</h2>
+        <h2>ELRANIAC</h2>
       </div>
       <img src="@/assets/img/Weibo_QR.png" style="width: 160px; height: 160px; margin: 20px 40px; float: right"/>
     </div>
@@ -28,7 +28,7 @@
       <img src="@/assets/img/avatar.jpg" style="width: 160px; height: 160px; margin: 20px 40px; float: left"/>
       <div style="float: left; margin: 20px 10px; color: #000000">
         <h1>Alipay</h1>
-        <h2>RaniacSimpson</h2>
+        <h2>ELRANIAC</h2>
       </div>
       <img src="@/assets/img/Alipay_QR.png" style="width: 160px; height: 160px; margin: 20px 40px; float: right"/>
     </div>

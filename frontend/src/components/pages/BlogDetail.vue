@@ -1,5 +1,5 @@
 <template>
-  <div class="blog-detail">
+  <div class="blog-detail" style="background-color: white">
     <div class="user-avatar" @click="handleRedirect">
       <span style="background-color: #282828; width: 4px; height: 60px; float: left"></span>
       <span class="avatar-img" :style="{ backgroundImage: 'url(https://raniac.github.io/static/img/avatar.b785c82.jpg)' }"></span>
@@ -124,7 +124,7 @@ export default {
   width: 1000px;
   height: auto;
   text-align: left;
-  box-shadow: 0 0 10px #808080;
+  box-shadow: 0 0 10px #505050;
   img {
     max-width: 800px;
   }

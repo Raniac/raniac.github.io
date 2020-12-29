@@ -26,6 +26,8 @@ html, body {
   padding: 0;
   font-family: 'Arial';
   height: 100%;
+  background-image: linear-gradient(45deg,slategray 25%,rgb(100, 115, 130) 0,rgb(100, 115, 130) 50%,slategray 0,slategray 75%,rgb(100, 115, 130) 0);
+  background-size: 40px 40px;
 }
 #app {
   min-width: 1200px;

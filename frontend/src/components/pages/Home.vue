@@ -1,6 +1,6 @@
 <template>
   <div class="page-area">
-    <div style="margin: 20px auto; width: 1000px; height: 340px; box-shadow: 0 0 10px #808080; text-align: left">
+    <div style="margin: 20px auto; width: 1000px; height: 340px; box-shadow: 0 0 10px #505050; text-align: left; background-color: white">
       <img src="@/assets/img/Me.jpg" style="float: left; width: auto; height: 100%; margin: 0"/>
       <div style="float: left; padding: 40px; width: 400px">
         <img src="@/assets/img/logo.png" style="width: 140px; height: 140px; margin: 0; float: right"/>
@@ -13,7 +13,7 @@
       </div>
       <span style="background-color: #282828; width: 4px; height: 340px; float: right"></span>
     </div>
-    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
+    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #505050; text-align: left; background-color: white">
       <div style="padding: 40px 40px 20px 40px">
         <el-select v-model="language" size="mini" placeholder="Language" style="float: right; width: 120px" @change="handleLangChange">
           <el-option label="English" value="English"></el-option>
@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #808080; text-align: left">
+    <div style="margin: 20px auto; width: 1000px; height: auto; box-shadow: 0 0 10px #505050; text-align: left; background-color: white">
       <div style="width: 100%; height: 250px">
         <span style="background-color: #FF3300; width: 4px; height: 100%; float: left"></span>
         <div style="padding: 40px 40px 20px 40px">

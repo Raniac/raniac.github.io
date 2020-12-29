@@ -3,7 +3,7 @@
     <div class="page-info">
       <span style="background-color: #282828; margin-top: 15px; width: 8px; height: 44px; float: left"></span>
       <div style="font-size: 50px; color: #282828; line-height: 150%">&ensp;PORTFOLIO</div>
-      <div style="font-size: 24px; color: #505050; line-height: 150%; font-family: Georgia, Palatino, serif">&ensp;Here are the projects that I've been working on.</div>
+      <div style="font-size: 24px; color: #303030; line-height: 150%; font-family: Georgia, Palatino, serif">&ensp;Here are the projects that I've been working on.</div>
     </div>
     <div class="project-card">
       <span style="background-color: #282828; width: 4px; height: 200px; float: right"></span>
@@ -90,9 +90,10 @@ export default {
   margin: 20px auto;
   width: 1000px;
   height: 200px;
-  box-shadow: 0 0 10px #808080;
+  box-shadow: 0 0 10px #505050;
+  background-color: white;
   &:hover {
-    box-shadow: 0 0 20px #808080;
+    box-shadow: 0 0 20px #505050;
   }
   .project-title {
     text-align: left;

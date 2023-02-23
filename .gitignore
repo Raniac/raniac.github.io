@@ -14,3 +14,4 @@ frontend/package-lock.json
 *.ntvs*
 *.njsproj
 *.sln
+*__pycache__
